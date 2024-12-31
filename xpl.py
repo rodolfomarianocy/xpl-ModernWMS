@@ -1,3 +1,10 @@
+# Exploit Title: ModernWMS - Excessive Data Exposure
+# Date: 31/12/2024
+# Exploit Author: Rodolfo Mariano
+# Vendor Homepage: https://github.com/frangoteam/FUXA
+# Version: modernwms:1.0
+# https://github.com/rodolfomarianocy/
+
 import requests,argparse
 
 parser = argparse.ArgumentParser(description='What the program does')
