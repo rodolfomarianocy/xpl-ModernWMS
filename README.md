@@ -1,4 +1,4 @@
-# ModernWMS v1.0 - Admin MD5 Password Hash Disclosure - CVE-2024-57698
+# Admin MD5 Password Hash Disclosure ModernWMS v1.0 CVE-2024-57698
 An issue in modernwms v.1.0 allows an attacker view the MD5 hash of the administrator password and other attributes without authentication, even after initial configuration and password change. This happens due to excessive exposure of information and the lack of adequate access control on the /user/list?culture=en-us endpoint.
 
 <p align="center">
